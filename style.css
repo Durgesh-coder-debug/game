@@ -1,0 +1,123 @@
+.heading{
+    /* background-color:red; */
+    height:40px;
+    width:450px;
+    font-size:20px;
+    text-align:center;
+    margin-left:480px;
+    color:red;
+}
+.container{
+    height:700px;
+    width:1000px;
+    margin-top:50px;
+    margin-left:200px; 
+    background-color:orange;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.box{
+    background-color:red;
+    height:190px;
+    width:200px;
+    margin:60px;
+    color:white;
+    font-size:15px;
+    border-radius:50%;
+}
+.reset{
+    height:40px;
+    width:200px;
+}
+#img2{
+    background-image:url("https://github.com/shradha-khapra/JavaScriptSeries/blob/main/StonePaperScissors/images/paper.png?raw=true");
+    background-repeat: no-repeat;
+    background-size:200px 190px;
+}
+#img1{
+    background-image:url("https://github.com/shradha-khapra/JavaScriptSeries/blob/main/StonePaperScissors/images/rock.png?raw=true");
+     background-repeat: no-repeat;
+    background-size:200px 190px;
+}
+#img3{
+    background-image:url("https://github.com/shradha-khapra/JavaScriptSeries/blob/main/StonePaperScissors/images/scissors.png?raw=true");
+    background-repeat: no-repeat;
+    background-size:200px 190px;
+}
+.txt{
+    /* background-color:black; */
+    height:60px;
+    width:600px;
+    margin-top:-390px;
+    margin-left:440px;
+    position: relative;
+    top:40px;
+    display: flex;
+}
+.b1{
+   color:white;
+   height:60px;
+   width:200px;
+   position: relative;
+   top:35px;
+   left:57px;
+}
+.b2{
+    color:white;
+   height:60px;
+   width:200px;
+   position: relative;
+
+   top:35px;
+   left:10px;
+}
+.b3{
+    color:white;
+   height:60px;
+   width:200px;
+   position: relative;
+   top:35px;
+   left:10px;
+}
+.boxes{
+    display:flex;
+    margin-top:0px;
+    margin-left:490px;
+}
+.box1{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    color:white;
+    margin:60px;
+    text-align:center;
+    margin-left:0px;
+}
+.box2{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    color:white;
+    margin:60px;
+    margin-left:0px;
+     text-align:center;
+}
+.box3{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    color:white;
+    margin:60px;
+    margin-left:0px;
+     text-align:center;
+}
+.reset{
+    height:50px;
+    width:130px;
+    background-color:rgba(255, 0, 0, 0.839);
+    color:white;
+    border:none;
+    margin-left:640px;
+    border-radius:20px;
+}
